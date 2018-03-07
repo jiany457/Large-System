@@ -22,7 +22,7 @@ rl.prompt();
 
 //lexical closure -> every JS script remember the environment where it was created
 function handleLineInput(userLine){
-	console.log(userLine + "!!");
+	console.log(userLine + "!!"); //you know when and what to send the msg
 	rl.prompt();
 }
 
