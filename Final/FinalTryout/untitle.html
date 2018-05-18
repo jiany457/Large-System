@@ -1,0 +1,20 @@
+<script src="/socket.io/socket.io.js"></script> 
+
+<!-- paste it into the index.html -->
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script>
+ //where is io file (io ())? inside socket file
+// var socket;
+// steTimeout(function(){ //for delaying open the window time
+//   var socket = io();
+// }, 3000);
+
+var socket = io(); //in server.js
+socket.on('chat', function(message){
+	console.log("CHAT", message.user, message.text);
+});
+
+</script>
+
+
+

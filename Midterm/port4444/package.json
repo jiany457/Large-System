@@ -1,0 +1,21 @@
+{
+  "name": "collabdraw",
+  "version": "1.0.0",
+  "description": "\"My cool collaborative drawing app\"",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "node-osc": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": " \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "keywords": [
+    "\"new\"",
+    "\"app\"",
+    "\"cool\""
+  ],
+  "author": "Yujie Jiang",
+  "license": "MIT"
+}
